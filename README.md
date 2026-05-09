@@ -1,4 +1,7 @@
 <h1 align="center">
+  <p align="center">
+    <img src="header.png" alt="Header" height=300>
+  </p>
     ElectricPVP
   <p align="center">
     <a href="https://www.gnu.org/licenses/quick-guide-gplv3.html">
