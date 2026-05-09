@@ -1,6 +1,6 @@
 <h1 align="center">
   <p align="center">
-    <img src="header.png" alt="Header" height=300>
+    <img src="header.png" alt="Header" height=256>
   </p>
     ElectricPVP
   <p align="center">
