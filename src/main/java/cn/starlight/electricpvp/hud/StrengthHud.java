@@ -14,12 +14,13 @@ public class StrengthHud extends TextHud {
 
     @Override
     protected void getLines(List<String> lines, boolean example) {
+        DglabServer server = DglabClient.webSocketServer;
+        if (server == null) return;
         if (example) {
             lines.add("A: 114/514");
             lines.add("B: 191/9810");
         } else {
-            DglabServer server = DglabClient.webSocketServer;
-            if (server != null && server.getConnected()) {
+            if (server.getConnected()) {
                 lines.add("A: " + server.getStrength().getAStrength() + "/" + server.getStrength().getAMaxStrength());
                 lines.add("B: " + server.getStrength().getBStrength() + "/" + server.getStrength().getBMaxStrength());
             } else {
