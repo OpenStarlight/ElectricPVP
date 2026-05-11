@@ -1,15 +1,11 @@
-[
-  {
-    "modid": "${id}",
-    "name": "${name}",
-    "description": "A client-side mod that integrates DG-LAB into Minecraft 1.8.9. Powered by OneConfig.",
-    "version": "${version}",
-    "mcversion": "${mcVersionStr}",
-    "url": "https://github.com/OpenStarlight/ElectricPVP",
-    "authorList": [
-      "Stars"
-    ],
-    "credits": "",
-    "logoFile": "/assets/electricpvp/dglab.png"
-  }
-]
+[{
+  "modid": "${id}",
+  "name": "${name}",
+  "description": "A clientside mod integrates DG-LAB into Minecraft 1.8.9. Powered by OneConfig.",
+  "version": "${version}",
+  "mcversion": "${mcVersionStr}",
+  "url": "https://github.com/OpenStarlight/ElectricPVP",
+  "authorList": ["Stars"],
+  "credits": "https://github.com/CaiJi-ikun/DG_LAB",
+  "logoFile": "/assets/electricpvp/dglab.png"
+}]
