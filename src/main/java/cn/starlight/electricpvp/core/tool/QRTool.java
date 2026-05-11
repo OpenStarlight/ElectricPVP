@@ -55,7 +55,7 @@ public class QRTool {
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
+            ElectricPVP.showMsg("§cFailed to generatae QR code. Check your websocket server config!");
         }
     }
 }

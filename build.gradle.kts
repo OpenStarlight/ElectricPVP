@@ -29,7 +29,7 @@ version = mod_version
 group = "cn.starlight.electricpvp"
 
 base {
-    archivesName.set("$mod_name")
+    archivesName.set(mod_name)
 }
 
 loom {

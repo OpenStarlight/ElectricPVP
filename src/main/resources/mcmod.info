@@ -5,14 +5,11 @@
     "description": "A client-side mod that integrates DG-LAB into Minecraft 1.8.9. Powered by OneConfig.",
     "version": "${version}",
     "mcversion": "${mcVersionStr}",
-    "url": "",
-    "updateUrl": "",
+    "url": "https://github.com/OpenStarlight/ElectricPVP",
     "authorList": [
       "Stars"
     ],
     "credits": "",
-    "logoFile": "",
-    "screenshots": [],
-    "dependencies": []
+    "logoFile": "/assets/electricpvp/dglab.png"
   }
 ]

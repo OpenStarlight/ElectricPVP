@@ -141,7 +141,7 @@ public class EventHandler {
                 }
 
             }
-            else if(!ClearA){
+            else if (!ClearA){
                 DglabClient.webSocketServer.cleanFrequency(1);
                 ClearA = true;
             }
